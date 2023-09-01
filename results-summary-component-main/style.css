@@ -1,0 +1,113 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid blueviolet 3px;
+    width: 500px;
+    font-size: 16px;
+}
+
+.bottomtext {
+    position: fixed;
+    bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+}
+
+.left-outer-box {
+    border: green 5px solid;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-between;
+}
+
+.right-outer-box {
+    border: solid red 3px;
+    flex: 1;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.right-outer-box>p {
+margin: 0;
+font-size: 13px;
+}
+
+
+
+.inner-box1,
+.inner-box2,
+.inner-box3,
+.inner-box4,
+.inner-box6,
+.inner-box7,
+.inner-box8,
+.inner-box9,
+.inner-box10 {
+    border: solid hotpink 1px;
+}
+
+.inner-box1 {
+    margin-top: 0%;
+    font-size: 18px;
+}
+
+.inner-box10 {
+    width: 100%;
+    padding: 8px;
+    border-radius: 9999px;
+    margin-bottom: 0%;
+}
+
+.inner-box2 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.inner-box4 {
+    margin-bottom: 0%;
+}
+
+.inner-box6 {
+    border-radius: 5%;
+    padding-top: 0%;
+    
+}
+
+#inner-box5 {
+    margin-top: 2px;
+    margin-block-start: 0px;
+    font-size: 18px;
+    border: solid yellow 1px;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+/*  .inner-box5 {
+    margin-top: auto;
+    margin-block-start: 0px;
+    font-size: 18px;
+} */
