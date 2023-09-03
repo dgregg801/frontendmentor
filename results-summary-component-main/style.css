@@ -10,8 +10,9 @@ body {
     display: flex;
     justify-content: space-evenly;
     border: solid blueviolet 3px;
-    width: 500px;
+    width: 450px;
     font-size: 16px;
+    border-radius: 5%;
 }
 
 .bottomtext {
@@ -86,12 +87,26 @@ body {
     font-size: 18px;
     border: solid yellow 1px;
     padding: 3px;
+     
 }
 
 .inner-box6 {
-    border-radius: 5%;
-    padding-top: 0%;
+    border-radius: 6.5%;
+    padding: 3px;
+    
+}
 
+.inner-box7 {
+    padding: 3px;
+}
+
+.inner-box8 {
+    padding: 3px;
+}
+
+.inner-box9 {
+    padding: 3px;
+    
 }
 
 .inner-box10 {
@@ -103,6 +118,11 @@ body {
 
 #box100 {
     font-size: 13px;
+}
+
+span {
+    float: right;
+    padding: 3px;
 }
 
 
