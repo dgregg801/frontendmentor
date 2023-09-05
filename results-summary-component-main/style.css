@@ -54,31 +54,17 @@ body {
 .right-outer-box>p {
     margin: 0;
     font-size: 13px;
-
-
 }
 
 
 
-.inner-box1,
-.inner-box2,
-.inner-box3,
-.inner-box4,
-.inner-box6,
-.inner-box7,
-.inner-box8,
-.inner-box9,
-.inner-box10 {
-    /* border: solid hotpink 1px; */
-}
+
+
 
 .inner-box1 {
     color: hsl(221, 100%, 96%);
     font-weight: 500;
     font-size: 16px;
-
-
-
 }
 
 .inner-box2 {
@@ -107,7 +93,6 @@ body {
     margin-right: 5px;
     color: hsl(221, 100%, 96%);
     border: 12px;
-
 }
 
 
@@ -126,12 +111,11 @@ body {
     color: hsl(0, 100%, 67%);
     background: #fcf5f5;
     font-size: 10px;
-    /* display: inline-block; */
-
-
 }
 
 .inner-box7 {
+    display: flex;
+    justify-content: space-between;
     padding: 6px;
     border-radius: 6.5%;
     color: hsl(39, 100%, 56%);
@@ -169,7 +153,7 @@ body {
 }
 
 span {
-    float: right;
+    
     padding: 3px;
     font-size: 11px;
 }
@@ -180,7 +164,6 @@ span {
     color: hsl(0, 0%, 100%);
     margin: 0%;
     padding-top: 20%;
-
 }
 
 #box100 {
