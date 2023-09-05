@@ -121,31 +121,32 @@ body {
 }
 
 .inner-box6 {
-    border-radius: 6.5%;
-    padding: 3px;
+    border-radius:6.5%;
+    padding: 6px;
     color: hsl(0, 100%, 67%);
     background: #fcf5f5;
     font-size: 10px;
+    /* display: inline-block; */
 
 
 }
 
 .inner-box7 {
-    padding: 3px;
+    padding: 6px;
     border-radius: 6.5%;
     color: hsl(39, 100%, 56%);
     background-color: hsl(41, 100%, 93%);
 }
 
 .inner-box8 {
-    padding: 3px;
+    padding: 6px;
     border-radius: 6.8%;
     color: hsl(166, 100%, 37%);
     background-color: rgb(237, 255, 251);
 }
 
 .inner-box9 {
-    padding: 3px;
+    padding: 6px;
     border-radius: 6.5%;
     color: hsl(234, 85%, 45%);
     background-color: rgb(227, 228, 238);
