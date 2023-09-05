@@ -3,16 +3,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh
+    height: 100vh;
 }
 
 .main-container {
     display: flex;
     justify-content: space-evenly;
     border: solid blueviolet 3px;
-    width: 450px;
+    width: 475px;
+    height: 340px;
     font-size: 16px;
-    border-radius: 5%;
+    border-radius: 6.5%;
 }
 
 .bottomtext {
@@ -24,22 +25,27 @@ body {
 }
 
 .left-outer-box {
-    border: green 5px solid;
+    border: green 5px solid; 
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 12px;
+    padding: 8px;
     justify-content: space-between;
+    border-radius: 6.5%;
+    background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    
 }
 
 .right-outer-box {
-    border: solid red 3px;
+    border: solid red 1px; 
     flex: 1;
-    padding: 2px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-radius: 0 6.5% 6.5% 0;
+    width: 200px;
 }
 
 
@@ -47,6 +53,8 @@ body {
 .right-outer-box>p {
     margin: 0;
     font-size: 13px;
+    
+    
 }
 
 
@@ -64,22 +72,38 @@ body {
 }
 
 .inner-box1 {
-    margin-top: 0%;
-    font-size: 18px;
+    color: hsl(221, 100%, 96%);
+    
+    
+    
 }
 
 .inner-box2 {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     text-align: center;
+    background:linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
 }
 
-#inner-box4 {
-    margin-bottom: 0%;
-    font-size: 13px;
-    border: solid yellow 1px;
+.inner-box3 {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
 }
+#inner-box4 {
+     /* margin-bottom: 0%;  */
+    font-size: 12px;
+    border: solid yellow 1px;
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: hsl(221, 100%, 96%);
+    border: 12px;
+
+}
+
 
 #inner-box5 {
     margin-top: 2px;
@@ -87,33 +111,40 @@ body {
     font-size: 18px;
     border: solid yellow 1px;
     padding: 3px;
-     
+    color: hsl(224, 30%, 27%)
+
 }
 
 .inner-box6 {
     border-radius: 6.5%;
     padding: 3px;
     
+
 }
 
 .inner-box7 {
     padding: 3px;
+    border-radius: 6.5%;
 }
 
 .inner-box8 {
     padding: 3px;
+    border-radius: 6.8%;
 }
 
 .inner-box9 {
     padding: 3px;
-    
+    border-radius: 6.5%
 }
+
+
 
 .inner-box10 {
     width: 100%;
     padding: 8px;
     border-radius: 9999px;
     margin-bottom: 0%;
+    background-color: hsl(224, 30%, 27%);
 }
 
 #box100 {
@@ -125,9 +156,16 @@ span {
     padding: 3px;
 }
 
+.head76 { 
+    font-size: 45px;
+    color: hsl(0, 0%, 100%);
+    margin: 0%;
+    padding-top: 20%;
+    
+}
 
-
-
-
-
-
+#box100 {
+    margin: 0%;
+    color: hsl(221, 100%, 96%);
+    font-size: 11px;
+}
