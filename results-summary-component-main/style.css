@@ -9,11 +9,12 @@ body {
 .main-container {
     display: flex;
     justify-content: space-evenly;
-    border: solid blueviolet 3px;
+    /* border: solid blueviolet 3px; */
     width: 475px;
     height: 340px;
     font-size: 16px;
     border-radius: 6.5%;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
 }
 
 .bottomtext {
@@ -25,7 +26,7 @@ body {
 }
 
 .left-outer-box {
-    border: green 5px solid; 
+
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -33,12 +34,12 @@ body {
     padding: 8px;
     justify-content: space-between;
     border-radius: 6.5%;
-    background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-    
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
 }
 
 .right-outer-box {
-    border: solid red 1px; 
+
     flex: 1;
     padding: 10px;
     display: flex;
@@ -53,8 +54,8 @@ body {
 .right-outer-box>p {
     margin: 0;
     font-size: 13px;
-    
-    
+
+
 }
 
 
@@ -68,14 +69,16 @@ body {
 .inner-box8,
 .inner-box9,
 .inner-box10 {
-    border: solid hotpink 1px;
+    /* border: solid hotpink 1px; */
 }
 
 .inner-box1 {
     color: hsl(221, 100%, 96%);
-    
-    
-    
+    font-weight: 500;
+    font-size: 16px;
+
+
+
 }
 
 .inner-box2 {
@@ -83,16 +86,19 @@ body {
     width: 120px;
     height: 120px;
     text-align: center;
-    background:linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 
 .inner-box3 {
     font-size: 18px;
+    font-weight: 700;
     color: hsl(0, 0%, 100%);
 }
+
 #inner-box4 {
-     /* margin-bottom: 0%;  */
+    /* margin-bottom: 0%;  */
     font-size: 12px;
+    font-weight: 500;
     border: solid yellow 1px;
     padding: 3px;
     padding-left: 12px;
@@ -108,33 +114,41 @@ body {
 #inner-box5 {
     margin-top: 2px;
     margin-block-start: 0px;
-    font-size: 18px;
-    border: solid yellow 1px;
+    font-size: 16px;
+    font-weight: 700;
     padding: 3px;
     color: hsl(224, 30%, 27%)
-
 }
 
 .inner-box6 {
     border-radius: 6.5%;
     padding: 3px;
-    
+    color: hsl(0, 100%, 67%);
+    background: #fcf5f5;
+    font-size: 10px;
+
 
 }
 
 .inner-box7 {
     padding: 3px;
     border-radius: 6.5%;
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(41, 100%, 93%);
 }
 
 .inner-box8 {
     padding: 3px;
     border-radius: 6.8%;
+    color: hsl(166, 100%, 37%);
+    background-color: rgb(237, 255, 251);
 }
 
 .inner-box9 {
     padding: 3px;
-    border-radius: 6.5%
+    border-radius: 6.5%;
+    color: hsl(234, 85%, 45%);
+    background-color: rgb(227, 228, 238);
 }
 
 
@@ -145,6 +159,8 @@ body {
     border-radius: 9999px;
     margin-bottom: 0%;
     background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+    font-size: 12px;
 }
 
 #box100 {
@@ -154,14 +170,16 @@ body {
 span {
     float: right;
     padding: 3px;
+    font-size: 11px;
 }
 
-.head76 { 
+.head76 {
     font-size: 45px;
+    font-weight: 800;
     color: hsl(0, 0%, 100%);
     margin: 0%;
     padding-top: 20%;
-    
+
 }
 
 #box100 {
