@@ -50,17 +50,10 @@ body {
     width: 200px;
 }
 
-
-
 .right-outer-box>p {
     margin: 0;
     font-size: 13px;
 }
-
-
-
-
-
 
 .inner-box1 {
     color: hsl(221, 100%, 96%);
@@ -140,7 +133,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 6px;
-    border-radius: 6.5%;
+    border-radius: 7% 7% 7% 7%;
     color: hsl(234, 85%, 45%);
     background-color: rgb(227, 228, 238);
 }
@@ -152,7 +145,7 @@ body {
     margin-bottom: 0%;
     background-color: hsl(224, 30%, 27%);
     color: hsl(221, 100%, 96%);
-    font-size: 12px;
+    font-size: 11px;
 }
 
 #box100 {
@@ -162,7 +155,7 @@ body {
 span {
     
     padding: 3px;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .head76 {
@@ -177,4 +170,9 @@ span {
     margin: 0%;
     color: hsl(221, 100%, 96%);
     font-size: 11px;
+}
+
+.bold {
+  color:hsl(224, 30%, 27%);
+  font-weight: 700;
 }
